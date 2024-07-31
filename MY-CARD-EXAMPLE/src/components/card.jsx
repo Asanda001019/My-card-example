@@ -1,21 +1,29 @@
 import React from 'react'
-
-
+import Background from "../assets/background.jpg"
+import Section from './section1';
+import { CiHeart } from "react-icons/ci";
 
 const Card = () => {
+    
     return (
       
        
         <>
-        <div class="center-box">
+        <div className="center-box">
 
 
-        <div class="section1">
-          
+        <div className="section1">
+        {/* <img src={Background} alt='ssss' className='bg' /> */}
+
+        <CiHeart className='icon' />
+
+        
+        <div className='heart-button'></div>
+    
         </div>
-        <div class="section">Section 2</div>
-        <div class="section">Section 3</div>
-        <div class="section">Section 4</div>
+        <div className="section">Section 2</div>
+        <div className="section">Section 3</div>
+        <div className="section">Section 4</div>
 
 
         </div>
