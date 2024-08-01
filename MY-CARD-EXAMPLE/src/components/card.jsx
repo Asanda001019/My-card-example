@@ -6,7 +6,17 @@ import { IoBedOutline } from "react-icons/io5";
 import { LiaBathSolid } from "react-icons/lia";
 import Picture from "../assets/b.jpg";
 
-const Card = () => {
+const Card = ({accommodation}) => {
+
+console.log(accommodation)
+console.log(accommodation.address)
+console.log(accommodation.price)
+console.log(accommodation.type)
+console.log(accommodation.age)
+console.log(accommodation.url)
+
+
+
 
     function Liked()  {
         console.log("is liked")
@@ -25,7 +35,7 @@ const Card = () => {
 
 
         <div className="section1">
-        {/* <img src={Background} alt='ssss' className='bg' /> */}
+        <img src={accommodation.url}alt='ssss' className='bg' />
         
 
 
@@ -38,16 +48,16 @@ const Card = () => {
         
     
         </div>
-        <div className="section"><h5>DETACHED HOUSE . 5Y OLD</h5>
-        <p>$750,000</p>
-        <h4>742 Evergreen Terrace</h4>
+        <div className="section"><h5>{accommodation.type} {accommodation.age}</h5>
+        <p>{accommodation.price}</p>
+        <h4>{accommodation.address}</h4>
         </div>
 
         <div className="section"><IoBedOutline className='bed'/>3 Bedrooms    <LiaBathSolid  className='bathroom'/>3 Bathrooms</div>
         <div className="section"><h3>REALTOR</h3>
-        <img src={Picture} alt='ssss' className='b' />
-        <h3 style={{color:"black"}}>Tiffany Heffner</h3>
-        <h5>(555) 555-4321</h5>
+        <img src=  {accommodation.url} alt='ssss' className='b' />
+        <h6 style={{color:"black"}}>Tiffany Heffner</h6>
+        <h6>(555) 555-4321</h6>
         </div>
 
 

@@ -26,7 +26,7 @@ function isChanged(){
        <button onClick={isChanged}
 >
 
-<CiHeart color={"white"} size={50}/>
+<CiHeart color={"red"} size={50}/>
         
         </button>
 
