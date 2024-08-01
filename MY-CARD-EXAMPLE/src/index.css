@@ -5,6 +5,7 @@
 body {
   background-color: grey;
 
+
 }
 body, html {
   height: 100%;
@@ -12,22 +13,24 @@ body, html {
   display: flex;
   justify-content: center; 
   align-items: center;   
+
 }
 
 
 .center-box {
   width: 500px;
   height: 500px;
-  
    box-shadow: 15px 15px 15px 15px rgb(83, 82, 82);
    border-radius: 20px;
-   background-color: lightgreen;
+   background-color: white;
+   
+  
   
 }
 
 .section1 {
   width: 100%;
-  height: 50%;
+  height: 45%;
   border-radius: 15px 15px 0 0;
   background-size: cover;
   background-image: url(assets/background.jpg);
@@ -39,10 +42,11 @@ body, html {
 
 
 .icon{
-  margin-left: 400px;
+  margin-left: 430px;
   font-size: 50px;
   color: white;
   cursor: pointer;
+  
 }
 .icon:active{
   background-color: red;
@@ -64,24 +68,88 @@ body, html {
   color: red;
 }
 
-.section:nth-child(2) {
-  background-color: lightgreen;
-  height: 20%;
 
+
+h5{
+  margin-left: -330px;
+  font-size: 10px;
+  color: grey;
+}
+  
+ 
+  h4{
+    margin-left: -330px;
+    font-size: 15px;
+    font-weight:bolder;
+    color: grey; 
+}
+
+p{
+  margin-left: -350px;
+  font-size: 30px;
+  color: black;
+  
+}
+
+.section:nth-child(2) {
+  
+  height: 20%;
+  background-color: white;
+   border-bottom: 1px solid #0e0d0d;
+   line-height: 10px;
  
 }
 
 .section:nth-child(3) {
-  background-color: lightyellow;
-  height: 15%;
+  background-color: white;
+  height: 10%;
+ 
 }
 .section:nth-child(4) {
-  background-color: yellow;
+  background-color: white;
   border-radius: 0 0 15px 15px;
-  height: 15%;
+  height: 20%;
+  
+  border-top: 1px solid #0e0d0d;
+ 
+}
+.bed{
+  margin-top: 15px;
+  font-size: 30px;
+  margin-left: -150px;
+}
+.bathroom{
+  margin-top: 15px;
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+h3{
+  margin-left: -400px;
+  font-size: 15px;
+  font-weight:bolder;
+  color: grey; 
+  margin-left: -270px;
+}
+
+.b{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 420px;
+  margin-top: -3px;
+  
+ 
  
 }
 
+h3{
+  margin-left: -400px;
+  font-size: 15px;
+  font-weight:bolder;
+  color: grey; 
+  margin-left: -270px;
+}
 
 
 

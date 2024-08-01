@@ -2,25 +2,26 @@ import React, { useState } from 'react';
 
 
 
-function Section() {
-  const [liked, setLiked] = useState(false);
 
-  const handleClick = () => {
-    setLiked(!liked);
-  };
+function Liked() {
+
+    let isLiked = false;
+    let iconColor = "white";
+
+  
+  function isChanged(){
 
   return (
-    <div className="App">
-      <div className="background">
-        <button
-          className={`heart-button ${liked ? 'liked' : ''}`}
-          onClick={handleClick}
-        >
-          ❤
+    
+        <button onClick={isChanged}
+>
+
+<CiHeart color={"red"} size={50} />
+        
         </button>
-      </div>
-    </div>
+    
   );
 }
+}
 
-export default Section;
+export default Liked;
